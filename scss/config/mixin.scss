@@ -1,0 +1,7 @@
+@mixin mq($width: "tablet") {
+  @if ($width == "tablet") {
+    @media (min-width: 990px) {
+      @content;
+    }
+  } 
+}
