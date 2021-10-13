@@ -54,7 +54,7 @@ This CSS property helped me to achieve the desirable result of getting as close 
     }
 ```
 
--gulp.js >> Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
+- gulp.js >> Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
 
 Even though it is a small project with a single component, I wanted to use gulp.js. It's been good for me as a preparation for other big projects.
 
