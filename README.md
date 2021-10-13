@@ -27,6 +27,9 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-using-scss-OfCOO0GhZ](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-scss-OfCOO0GhZ)
+- Live Site URL: [https://fundakartal.github.io/stats-preview-card/](https://fundakartal.github.io/stats-preview-card/)
+
 ## My process
 
 ### Built with
