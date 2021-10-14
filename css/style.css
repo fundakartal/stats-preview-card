@@ -71,26 +71,15 @@ ul {
   }
 }
 .card-image {
-  background: url("../images/image-header-mobile.jpg") center/cover no-repeat;
+  background: #aa5cdb url("../images/image-header-mobile.jpg") center/cover no-repeat;
+  background-blend-mode: multiply;
   width: 100%;
   height: 250px;
   border-radius: 10px 10px 0 0;
 }
 @media (min-width: 990px) {
   .card-image {
-    background: url("../images/image-header-desktop.jpg") center/cover no-repeat;
-    border-radius: 0 10px 10px 0;
-    height: 400px;
-  }
-}
-.card-image-overlay {
-  background-color: #aa5cdb;
-  height: 250px;
-  mix-blend-mode: multiply;
-  border-radius: 10px 10px 0 0;
-}
-@media (min-width: 990px) {
-  .card-image-overlay {
+    background-image: url("../images/image-header-desktop.jpg");
     border-radius: 0 10px 10px 0;
     height: 400px;
   }

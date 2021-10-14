@@ -41,24 +41,15 @@ ul {
     max-width: 1000px;
   }
   &-image {
-    background: url('../images/image-header-mobile.jpg') center / cover no-repeat;
+    background: $soft-violet url('../images/image-header-mobile.jpg') center / cover no-repeat;
+    background-blend-mode: multiply;
     width: 100%;
     height: 250px;
     border-radius: 10px 10px 0 0;
     @include mq('tablet') {
-      background: url('../images/image-header-desktop.jpg') center / cover no-repeat;
+      background-image: url('../images/image-header-desktop.jpg');
       border-radius: 0 10px 10px 0;
       height: 400px;
-    }
-    &-overlay {
-      background-color: $soft-violet;
-      height: 250px;
-      mix-blend-mode: multiply;
-      border-radius: 10px 10px 0 0;
-      @include mq('tablet') {
-        border-radius: 0 10px 10px 0;
-        height: 400px;
-      }
     }
   }
   &-content {
