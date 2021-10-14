@@ -54,6 +54,17 @@ This CSS property helped me to achieve the desirable result of getting as close 
     }
 ```
 
+- background-blend-mode
+
+This is how I handled it instead of using a div for the overlay. It saved the code redundancy.
+
+```css
+&-image {
+    background: $soft-violet url('../images/image-header-mobile.jpg') center / cover no-repeat;
+    background-blend-mode: multiply;
+}
+```
+
 - gulp.js >> Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
 
 Even though it is a small project with a single component, I wanted to use gulp.js. It's been good for me as a preparation for other big projects.
